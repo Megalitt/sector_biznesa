@@ -14,14 +14,20 @@ const Table = () => {
   const sortIdHeandler = () => {
     setStateId(state => !state);
     dispatch(setSortId(stateId));
+    setStateTitle(false);
+    setStateBody(false);
   }
   const sortTitleHeandler = () => {
     setStateTitle(state => !state); 
     dispatch(setSortTitle(stateTitle));
+    setStateId(false)
+    setStateBody(false);
   }
   const sortBodyHeandler = () => {
     setStateBody(state => !state); 
     dispatch(setSortBody(stateBody));
+    setStateId(false)
+    setStateTitle(false);
   }
 
   return (
