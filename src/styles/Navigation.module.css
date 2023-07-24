@@ -1,0 +1,11 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 119px 12px 119px;
+}
+@media (max-width: 520px){
+  .navigation {
+    margin: 16px 80px 16px 100px;
+  }
+}

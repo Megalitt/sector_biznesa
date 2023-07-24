@@ -1,0 +1,21 @@
+.pages {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  width: 104px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.page {
+  color: #474955;
+  cursor: pointer;
+}
+.activ {
+  color: #7ebc3c;
+}
+@media (max-width: 520px){
+  .pages {
+    margin: 16px 20px;
+  }
+}
